@@ -19,8 +19,8 @@ app.config(["$routeProvider", function($routeProvider){
         templateUrl: "/views/home.htm",
         controller: "homeController"
       }).
-      when("/cat", {
-        templateUrl: "/views/add.html",
+      when("/add", {
+        templateUrl: "/views/add.htm",
         controller: "addController"
       }).
       otherwise({
