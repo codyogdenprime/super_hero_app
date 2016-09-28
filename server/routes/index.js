@@ -2,6 +2,7 @@ const path = require( 'path' );
 const express = require( 'express' );
 const index = express.Router();
 
+// Serve index.html when GET localhost:port/
 index.route( '/' )
 .get( ( req, res ) => {
 
