@@ -9,14 +9,8 @@ npm install -g bower
 ```
 After bower is installed...
 ```bash
-bower install
-```
-...then...
-```bash
-npm install
-```
-...and to run it:
-```bash
+bower install;
+npm install;
 npm start
 ```
 
