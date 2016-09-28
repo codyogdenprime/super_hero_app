@@ -30,6 +30,9 @@ MongoDB.once( 'open', () => {
 // Make bower components public
 app.use( express.static( './bower_components' ) );
 
+// Make public, er... public
+app.use( express.static( './public' ) );
+
 // Server index.html
 const index = require( __dirname + '/routes/index' );
 app.use( '/', index );

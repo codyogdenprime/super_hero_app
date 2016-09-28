@@ -7,3 +7,5 @@ city
 power_name
 
 */
+
+var app = angular.module( 'app', [] );
