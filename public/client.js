@@ -14,20 +14,16 @@ app.config(["$routeProvider", function($routeProvider){
 
 	console.log( 'ng' );
 
-/*    $routeProvider.
+  $routeProvider.
       when("/home", {
-        templateUrl: "/views/partials/home.html",
+        templateUrl: "/views/home.htm",
         controller: "homeController"
       }).
       when("/cat", {
-        templateUrl: "/views/partials/cat.html",
-        controller: "catController"
-      }).
-      when("/lizard", {
-        templateUrl: "/views/partials/lizard.html",
-        controller: "lizardController"
+        templateUrl: "/views/add.html",
+        controller: "addController"
       }).
       otherwise({
         redirectTo: "/home"
-      });*/
+      });
 }]);

@@ -10,7 +10,7 @@ const hero = new Schema({
 	first_name: { type: String, required: true },
 	last_name: { type: String, required: true },
 	city: { type: String, required: true },
-	power_name: ['Invisibility', 'Flight', 'Super Speed', 'Heat Vision', 'Super Strength', 'Accelerated Healing', 'Power Blast', 'Animal Affinity']
+	power_name: { type: String, required: true }
 });
 
 // Create a mongo model
