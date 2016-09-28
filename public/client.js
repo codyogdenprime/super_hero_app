@@ -1,19 +1,11 @@
-/*
-
-alias
-first_name
-last_name
-city
-power_name
-
-*/
-
 var app = angular.module( 'app', ['ngRoute'] );
 
+// App Config
 app.config(["$routeProvider", function($routeProvider){
 
 	console.log( 'ng' );
 
+	// Angular Routing
   $routeProvider.
       when("/home", {
         templateUrl: "/views/home.htm",
