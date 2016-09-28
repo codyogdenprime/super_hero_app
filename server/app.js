@@ -26,3 +26,14 @@ MongoDB.once( 'open', () => {
     	console.log( 'App is running at http://localhost:' + port + '/' );
     } );
 } );
+
+// Make bower components public
+app.use( express.static( './bower_components' ) );
+
+// Server index.html
+const index = require( __dirname + '/routes/index' );
+app.use( '/', index );
+
+// Hero API Router
+const hero = require( __dirname + '/routes/hero' );
+app.use( '/hero', hero );
