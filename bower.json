@@ -1,0 +1,18 @@
+{
+  "name": "cc",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Cody Ogden <cody@codyogden.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
